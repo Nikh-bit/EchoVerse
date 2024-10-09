@@ -81,7 +81,7 @@ def handlelogin(request):
 
         user = authenticate(username=loginusername, password=loginpass)
 
-
+#hi
         if user is not None:
             login(request,user)
             messages.success(request,"Successfully Logged In")
